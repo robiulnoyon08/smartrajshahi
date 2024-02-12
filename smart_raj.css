@@ -1,0 +1,247 @@
+.body{
+    margin: 5px 5px  0px 5px;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+   display: grid;
+   grid-template-columns: 40% 60%;
+    gap: 10px;
+    padding: 10px;
+}
+.header .sub{
+    width: 100%;
+    height: 100px;
+    /* background-color: rebeccapurple; */
+    align-content: space-between;
+}
+.header .sub img{
+    width: 30%;
+    height: 100px;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.header .sub2{
+    width: 98%;
+    height: 100px;
+    /* background-color: brown; */
+}
+.header .sub2 img{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.nav{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(226, 125, 43);
+    display: flex;
+    gap: 300px;
+    margin: 5px;
+    overflow: hidden;
+}
+.nav .span{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+}
+.nav .span :hover{
+    background-color: rgb(206, 160, 61);
+}
+.nav .span2{
+    text-align: right;
+    display: flex;
+    gap: 20px;
+    margin-left: 22%;
+    padding: 5px;
+}
+.nav .span2 :hover{
+    background-color: rgb(189, 60, 14);
+}
+.nav2{
+    width: 100%;
+    height: 50px;
+    /* background-color: aquamarine; */
+    padding: 5px;
+}
+.btn{
+    width: 80px;
+    height: 30px;
+    background-color: brown;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.header2{
+    width: 100%;
+    height: 300px;
+}
+.header2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.desk1{
+    width: 100%;
+    height: 150px;
+    /* background-color: rgb(16, 151, 151); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 5px;
+}
+.sub1{
+    width: 90%;
+    height: 130px;
+    /* background-color: rgb(189, 122, 40); */
+}
+.right1{
+    width: 50%;
+    height: 400px;
+    margin-left: 20%;
+    text-align: center;
+}
+.box1{
+    width: 80%;
+    height: 50%;
+    background-color: #FF4500;
+    border: 2px solid black;
+    margin-left: 10%;
+}
+.box{
+    width: 20%;
+    height: 20%;
+    margin-left: 15%;
+}
+.btn1{
+    width: 178px;
+    height: 30px;
+    background-color: #FF4500;
+}
+
+
+
+.desk2{
+    width: 100%;
+    height: 200px;
+    /* background-color: rgb(31, 58, 214); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 5px;
+}
+.sub2{
+    width: 100%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.media iframe{
+    width: 50%;
+    height: 200px;
+    /* background-color: #FF4500; */
+    margin-left: 20%;
+    padding-top: 10px;
+}
+
+
+
+.desk3{
+    width: 100%;
+    height: 400px;
+    /* background-color: rgb(31, 58, 214); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 5px;
+}
+.sub3{
+    width: 100%;
+    height: 350px;
+    /* background-color: chartreuse; */
+    overflow: hidden;
+}
+.cont3{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.pic1{
+    width: 50%;
+    height: 300px;
+    position: relative;
+    margin-left: 20%;
+}
+.pic2{
+    width: 40%;
+    height: 300px;
+    background-color: rgb(233, 212, 184);
+    position: absolute;
+    margin-left: 59.7%;
+    margin-top: 20%;
+    margin-right: 20px;
+}
+.desk3 .pic1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.desk3 .pic2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.desk4{
+    width: 100%;
+    height: 200px;
+    /* background-color: rgb(17, 180, 172); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 5px;
+    
+}
+.cont4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 100px;
+}
+.space{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(160, 114, 58); */
+}
+
+
+.desk5{
+    width: 50%;
+    height: 200px;
+    /* background-color: rgb(17, 180, 172); */
+    gap: 20px;
+    margin: 5px;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: #FF4500;
+    padding: 10px;
+    position: relative;
+}
+.turnup{
+    color: red;
+    
+    margin-left: 95%
+}
+.logo{
+    position: absolute;
+    margin-left: 85%;
+    display: flex;
+    gap: 40px;
+    margin-top: -40px;
+    text-wrap: nowrap;
+}
